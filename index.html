@@ -8,6 +8,80 @@
     <script defer src="script.js"></script>
 </head>
 <body>
+    <div class="taytel">
+        <h1>NBA FANTASY 2014-2024</h1>
+    </div>
+    <div class="contaner">
+        <h3>My fantasy Team</h3>
+        <div class="boxes">
+            <div class="box" id="box-1">
+                <p class="">Point Guard</p>
+                <p id="player-box1"></p>
+                <p id="threePercent-box1"></p>
+                <p id="twoPercent-box1"></p>
+                <p id="points-box1"></p>
+            </div>
+            <div class="box" id="box-2">
+                <p class="">SHooting Guard</p>
+                <p id="player-box2"></p>
+                <p id="threePercent-box2"></p>
+                <p id="twoPercent-box2"></p>
+                <p id="points-box2"></p>
+            </div>
+            <div class="box" id="box-3">
+                <p class="">Small Forward</p>
+                <p id="player-box3"></p>
+                <p id="threePercent-box3"></p>
+                <p id="twoPercent-box3"></p>
+                <p id="points-box3"></p>
+            </div>
+            <div class="box" id="box-4">
+                <p class="">Power Forward</p>
+                <p id="player-box4"></p>
+                <p id="threePercent-box4"></p>
+                <p id="twoPercent-box4"></p>
+                <p id="points-box4"></p>
+            </div>
+            <div class="box" id="box-5">
+                <p class="p">Center</p>
+                <p id="player-box5"></p>
+                <p id="threePercent-box5"></p>
+                <p id="twoPercent-box5"></p>
+                <p id="points-box5"></p>
+            </div>
+        </div>
+        <div>
+            <h2>NBA Player Search</h2>
+        </div>
+        <div >
+           
+              <form id="form">
+                <select class="input-position" required>
+                    <option value="PG">PG</option>
+                    <option value="SG">SG</option>
+                    <option value="SF">SF</option>
+                    <option value="PF">PF</option>
+                    <option value="C">C</option>
+                  </select>
+                <input class="input-points" type="range" min="0" max="20000">
+                <input class="input-twoPercent" type="range" min="0" max="100">
+                <input class="input-threePercent" type="range" min="0" max="100">
+                <input  class="submit-Search" type="submit" value="Search Player" onclick="serchFilter()">
+              </form>
+             
+            <table id="tableKorkinet" border="1">
+                <thead >
+                    <th>Player</th>
+                    <th>Position</th>
+                    <th>Points</th>
+                    <th>FG%</th>
+                    <th>RP%</th>
+                    <th>Action</th>
+                </thead>
+            </table>
+        </div>
+        
+    </div>
     
 </body>
 </html>

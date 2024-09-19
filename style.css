@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.taytel{
+    display: flex;
+    justify-content: center;
+    background-color: #143C87;
+    color: aliceblue;
+    padding: 10px;
+}
+
+h3{
+    color: #143C87;
+}
+
+h2{
+    color: #143C87;
+}
+
+.contaner{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.boxes{
+    display: flex;
+    justify-content: center;
+    /* flex-direction: column; */
+    height: 300px;
+    width: 90%;
+
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 220px;
+    width: 200px;
+    background-color: #F0F0F0;
+    margin: 15px;
+    border-radius: 4px;
+    box-shadow:1px 1px 1px ;
+    
+}
+
+form{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F0F0F0;
+    
+}
+/* 
+#serch{
+    display: flex;
+   align-items: center;
+    flex-direction: column;
+} */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  th{
+    background-color: red;
+    color: #F0F0F0;
+  }
+
+  .btnAction {
+    padding: 5px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+
+  .input-points{
+    width: 340px;
+  }
+
+  .input-twoPercent{
+    width: 340px;
+  }
+  .input-threePercent{
+    width: 340px;
+  }
+
+  .submit-Search{
+    width: 320px;
+  }
+  .input-position{
+    width: 340px;
+  }
+
